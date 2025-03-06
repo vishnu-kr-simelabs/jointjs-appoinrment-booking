@@ -1,0 +1,25 @@
+{
+  "dependencies": {
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0",
+    "react-scripts": "^4.0.0",
+    "@joint/plus": "https://docs.jointjs.com/lib/4.1/joint-plus.tgz",
+    "@testing-library/dom": "10.4.0",
+    "@testing-library/react": "16.2.0"
+  },
+  "devDependencies": {
+    "@types/react": "^18.0.0",
+    "@types/react-dom": "^18.0.0",
+    "typescript": "^4.0.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --transformIgnorePatterns \"node_modules/(?!@joint)/\"",
+    "eject": "react-scripts eject"
+  },
+  "main": "/index.tsx",
+  "name": "m6ly8v",
+  "description": null,
+  "version": "0.0.306"
+}

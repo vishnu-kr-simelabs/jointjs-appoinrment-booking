@@ -1,0 +1,60 @@
+@import "@joint/plus/joint-plus.css";
+
+body {
+  margin: 0;
+  padding: 5px;
+}
+
+#root {
+  height: 100vh;
+  width: 100vw;
+}
+
+.canvas {
+  width: 100%;
+  height: 100%;
+}
+
+.joint-paper {
+  border: 1px solid #a0a0a0;
+}
+
+#stencil {
+  position: absolute;
+  width: 200px;
+  min-height: 600px;
+  z-index: 1000;
+  left: 0px;
+  transition: all 0.5s ease-in-out;
+}
+
+#stencil.hide {
+  left: -1000px;
+}
+
+.stencil-btn {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 8px 24px;
+  background-color: #fff;
+  border: none;
+  font-size: 1rem;
+  font-weight: "bold";
+  box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+  margin: 4px 8px;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: all 0.5s ease-in-out;
+}
+
+.stencil-btn:hover {
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+}
+
+.topbar-section {
+    display: flex;
+    flex-direction: row;
+    
+}
